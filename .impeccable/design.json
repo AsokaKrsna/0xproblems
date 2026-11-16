@@ -1,0 +1,309 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-16T17:52:20.438588+05:30",
+  "title": "Design System: 0xProblems",
+  "extensions": {
+    "colorMeta": {
+      "bg": {
+        "role": "neutral",
+        "displayName": "Warm Black",
+        "tonalRamp": [
+          "oklch(0.150 0.0026 95.48)",
+          "oklch(0.260 0.0051 95.48)",
+          "oklch(0.380 0.0071 95.48)",
+          "oklch(0.490 0.0080 95.48)",
+          "oklch(0.610 0.0077 95.48)",
+          "oklch(0.720 0.0064 95.48)",
+          "oklch(0.840 0.0041 95.48)",
+          "oklch(0.950 0.0013 95.48)"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Instrument Surface",
+        "tonalRamp": [
+          "oklch(0.150 0.0036 99.39)",
+          "oklch(0.260 0.0072 99.39)",
+          "oklch(0.380 0.0100 99.39)",
+          "oklch(0.490 0.0112 99.39)",
+          "oklch(0.610 0.0108 99.39)",
+          "oklch(0.720 0.0090 99.39)",
+          "oklch(0.840 0.0057 99.39)",
+          "oklch(0.950 0.0018 99.39)"
+        ]
+      },
+      "surface-hover": {
+        "role": "neutral",
+        "displayName": "Raised Tone",
+        "tonalRamp": [
+          "oklch(0.150 0.0047 95.57)",
+          "oklch(0.260 0.0093 95.57)",
+          "oklch(0.380 0.0129 95.57)",
+          "oklch(0.490 0.0144 95.57)",
+          "oklch(0.610 0.0140 95.57)",
+          "oklch(0.720 0.0116 95.57)",
+          "oklch(0.840 0.0073 95.57)",
+          "oklch(0.950 0.0024 95.57)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Olive Rule",
+        "tonalRamp": [
+          "oklch(0.150 0.0057 93.27)",
+          "oklch(0.260 0.0112 93.27)",
+          "oklch(0.380 0.0155 93.27)",
+          "oklch(0.490 0.0174 93.27)",
+          "oklch(0.610 0.0168 93.27)",
+          "oklch(0.720 0.0140 93.27)",
+          "oklch(0.840 0.0088 93.27)",
+          "oklch(0.950 0.0029 93.27)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Parchment",
+        "tonalRamp": [
+          "oklch(0.150 0.0086 90.11)",
+          "oklch(0.260 0.0169 90.11)",
+          "oklch(0.380 0.0235 90.11)",
+          "oklch(0.490 0.0263 90.11)",
+          "oklch(0.610 0.0254 90.11)",
+          "oklch(0.720 0.0211 90.11)",
+          "oklch(0.840 0.0133 90.11)",
+          "oklch(0.950 0.0044 90.11)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted Olive",
+        "tonalRamp": [
+          "oklch(0.150 0.0106 90.39)",
+          "oklch(0.260 0.0208 90.39)",
+          "oklch(0.380 0.0288 90.39)",
+          "oklch(0.490 0.0323 90.39)",
+          "oklch(0.610 0.0312 90.39)",
+          "oklch(0.720 0.0260 90.39)",
+          "oklch(0.840 0.0164 90.39)",
+          "oklch(0.950 0.0054 90.39)"
+        ]
+      },
+      "faint": {
+        "role": "neutral",
+        "displayName": "Faint Olive",
+        "tonalRamp": [
+          "oklch(0.150 0.0082 89.89)",
+          "oklch(0.260 0.0161 89.89)",
+          "oklch(0.380 0.0224 89.89)",
+          "oklch(0.490 0.0251 89.89)",
+          "oklch(0.610 0.0242 89.89)",
+          "oklch(0.720 0.0202 89.89)",
+          "oklch(0.840 0.0127 89.89)",
+          "oklch(0.950 0.0042 89.89)"
+        ]
+      },
+      "accent": {
+        "role": "primary",
+        "displayName": "Signal Orange",
+        "tonalRamp": [
+          "oklch(0.150 0.0569 38.41)",
+          "oklch(0.260 0.1122 38.41)",
+          "oklch(0.380 0.1555 38.41)",
+          "oklch(0.490 0.1741 38.41)",
+          "oklch(0.610 0.1684 38.41)",
+          "oklch(0.720 0.1401 38.41)",
+          "oklch(0.840 0.0885 38.41)",
+          "oklch(0.950 0.0288 38.41)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "headline": {
+        "displayName": "Brief headline",
+        "purpose": "Desktop detail title; 23px on mobile."
+      },
+      "title": {
+        "displayName": "Category title",
+        "purpose": "Category inspector heading."
+      },
+      "body": {
+        "displayName": "Specification prose",
+        "purpose": "Long brief paragraphs."
+      },
+      "label": {
+        "displayName": "Supporting label",
+        "purpose": "Taxonomy and metadata."
+      },
+      "control": {
+        "displayName": "Compact control",
+        "purpose": "Actions and navigation."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "camera",
+        "value": "650ms cubic-bezier(.16,1,.3,1)",
+        "purpose": "Map camera and counter-rotating captions; disabled during direct dragging."
+      },
+      {
+        "name": "relationship-emphasis",
+        "value": "180ms ease-out",
+        "purpose": "Bridge strokes and sector opacity."
+      },
+      {
+        "name": "drawer-enter",
+        "value": "220ms cubic-bezier(.16,1,.3,1)",
+        "purpose": "Drawer translation from 22px to zero."
+      },
+      {
+        "name": "reduced-motion",
+        "value": ".01ms",
+        "purpose": "All animation and transition durations under prefers-reduced-motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide-inspector",
+        "value": "1500px"
+      },
+      {
+        "name": "compact-desktop",
+        "value": "1100px"
+      },
+      {
+        "name": "mobile",
+        "value": "760px"
+      },
+      {
+        "name": "short-desktop",
+        "value": "760px height"
+      },
+      {
+        "name": "map-label-adjustment",
+        "value": "850px height"
+      }
+    ],
+    "notes": [
+      "Tonal ramps are synthesized OKLCH preview metadata, not additional shipped palette tokens.",
+      "Colors, typography, spacing, radii, and component primitives are owned by DESIGN.md frontmatter.",
+      "Shared focus indicator: 2px solid var(--accent), offset 4px.",
+      "Filter scrim: #08070366; detail scrim: #090804aa."
+    ],
+    "atlasInteraction": {
+      "crosshair": {
+        "scope": "full rendered map viewport, including SVG letterboxing",
+        "coordinates": "map-viewport pixels",
+        "hideOn": [
+          "pointer exit",
+          "touch"
+        ],
+        "stroke": "#756c55"
+      },
+      "wheel": {
+        "overview": "zoom",
+        "categorySelected": "anchored next/previous category stepping; 45px threshold; 650ms step lock; wraps; preserves zoom and pan",
+        "ctrlOrMeta": "zoom",
+        "inspector": "native scroll"
+      },
+      "specification": "on demand; loading, error/retry, copy disabled until ready"
+    }
+  },
+  "components": [
+    {
+      "name": "Primary source action",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Inverted source link; orange on hover.",
+      "html": "<a class=\"ds-primary\" href=\"#source\">Original source <svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></a>",
+      "css": ".ds-primary{font-family:Recursive,ui-monospace,monospace;display:inline-flex;align-items:center;gap:12px;background:var(--ink,#e9e2cf);color:var(--bg,#14130f);padding:10px 14px;font-size:12px;border-radius:4px;text-decoration:none}.ds-primary:hover{background:var(--accent,#ff784c)}.ds-primary:focus-visible{outline:2px solid var(--accent,#ff784c);outline-offset:4px}"
+    },
+    {
+      "name": "Quiet action",
+      "kind": "button",
+      "refersTo": "button-quiet",
+      "description": "Compact secondary workspace action.",
+      "html": "<button class=\"ds-quiet\">Copy brief</button>",
+      "css": ".ds-quiet{font-family:Recursive,ui-monospace,monospace;color:var(--ink,#e9e2cf);background:var(--surface,#1f1e18);border:0;border-radius:4px;padding:9px 12px;min-height:34px;font-size:12px;cursor:pointer}.ds-quiet:hover{background:var(--surface-hover,#29271f)}.ds-quiet:focus-visible{outline:2px solid var(--accent,#ff784c);outline-offset:4px}"
+    },
+    {
+      "name": "View navigation",
+      "kind": "nav",
+      "refersTo": "view-tab-active",
+      "description": "Grouped inverted active segment.",
+      "html": "<nav class=\"ds-tabs\" aria-label=\"View\"><button aria-pressed=\"true\">Map</button><button aria-pressed=\"false\">Explorer</button></nav>",
+      "css": ".ds-tabs{display:inline-flex;background:var(--surface,#1f1e18);padding:3px;border-radius:6px;gap:3px}.ds-tabs button{font-family:Recursive,ui-monospace,monospace;border:0;color:var(--muted,#a39b85);background:transparent;border-radius:4px;padding:7px 13px;font-size:12px;cursor:pointer}.ds-tabs button[aria-pressed=true]{background:var(--ink,#e9e2cf);color:var(--bg,#14130f)}.ds-tabs button:not([aria-pressed=true]):hover{background:var(--surface-hover,#29271f);color:var(--ink,#e9e2cf)}.ds-tabs button:focus-visible{outline:2px solid var(--accent,#ff784c);outline-offset:4px}"
+    },
+    {
+      "name": "Search field",
+      "kind": "input",
+      "refersTo": "",
+      "description": "Borderless field in a ruled strip.",
+      "html": "<label class=\"ds-search\"><input type=\"search\" aria-label=\"Search problems\" placeholder=\"Search problems, agencies, domains…\"></label>",
+      "css": ".ds-search{display:flex;background:var(--surface,#1f1e18);border-block:1px solid var(--line,#38352b);padding:13px 20px}.ds-search input{font-family:Recursive,ui-monospace,monospace;width:100%;min-width:0;background:transparent;border:0;padding:8px 0;color:var(--ink,#e9e2cf);caret-color:var(--accent,#ff784c);font-size:13px}.ds-search input::placeholder{color:var(--muted,#a39b85)}.ds-search input:focus-visible{outline:2px solid var(--accent,#ff784c);outline-offset:4px}"
+    },
+    {
+      "name": "Filter select",
+      "kind": "input",
+      "refersTo": "filter-select",
+      "description": "Compact native select in the filter panel.",
+      "html": "<select class=\"ds-select\" aria-label=\"Build type\"><option>All build types</option><option>Software</option></select>",
+      "css": ".ds-select{font-family:Recursive,ui-monospace,monospace;color:var(--ink,#e9e2cf);background:var(--surface,#1f1e18);border:1px solid var(--line,#38352b);padding:9px 10px;border-radius:4px;font-size:13px}.ds-select:hover{border-color:var(--muted,#a39b85)}.ds-select:focus-visible{outline:2px solid var(--accent,#ff784c);outline-offset:4px}"
+    },
+    {
+      "name": "Category option",
+      "kind": "button",
+      "refersTo": "category-option",
+      "description": "Category filter with a quiet aligned count.",
+      "html": "<button class=\"ds-category\" aria-pressed=\"true\"><span>All problems</span><span>229</span></button>",
+      "css": ".ds-category{font-family:Recursive,ui-monospace,monospace;display:flex;width:100%;justify-content:space-between;gap:10px;text-align:left;border:0;border-radius:3px;background:transparent;color:var(--ink,#e9e2cf);padding:10px 8px;font-size:11px;cursor:pointer}.ds-category span:last-child{color:var(--muted,#a39b85);font-variant-numeric:tabular-nums}.ds-category:hover,.ds-category[aria-pressed=true]{background:var(--surface,#1f1e18)}.ds-category[aria-pressed=true]{color:var(--accent,#ff784c)}.ds-category:focus-visible{outline:2px solid var(--accent,#ff784c);outline-offset:4px}"
+    },
+    {
+      "name": "Map preview",
+      "kind": "card",
+      "refersTo": "map-preview",
+      "description": "Passive preview for a hovered or focused map problem.",
+      "html": "<div class=\"ds-preview\"><span>Problem ID · Relevance 9/10</span><p>Problem title</p></div>",
+      "css": ".ds-preview{font-family:Recursive,ui-monospace,monospace;padding:15px;background:var(--surface,#1f1e18);color:var(--ink,#e9e2cf);border-radius:4px;max-width:380px}.ds-preview span{color:var(--accent,#ff784c);font-size:10px}.ds-preview p{font-size:12px;line-height:1.55;margin:7px 0 0}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Warm Instrument Atlas",
+    "overview": "A warm, precise instrument for exploring cybersecurity briefs. Parchment text, fine olive-brown rules, and small Recursive controls keep dense information readable against a warm black field. Orange identifies interactions, selected objects, and important scores.\n\nThe interface feels like a working atlas: radial geometry, hexagonal anchors, and quiet numeric metadata provide orientation. Panels belong to the same flat material as the workspace; their boundaries come from tone and rules.",
+    "keyCharacteristics": [
+      "Warm dark surfaces with parchment text.",
+      "One self-hosted variable family, Recursive.",
+      "Compact controls and tabular numeric metadata.",
+      "Fine geometric drawing with flat, ruled panels."
+    ],
+    "rules": [
+      {
+        "name": "The Interaction Orange Rule",
+        "body": "Use orange for interactive identifiers, selection, focus, and score emphasis. Keep passive structure in the parchment and olive-brown family.",
+        "section": "colors"
+      },
+      {
+        "name": "The Shared Instrument Rule",
+        "body": "Use Recursive for headings, controls, prose, and map labels; distinguish roles with size, weight, and spacing.",
+        "section": "typography"
+      },
+      {
+        "name": "The Ruled Surface Rule",
+        "body": "Separate panels and rows with tone and fine borders. The implementation uses no box shadows.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do reuse the eight CSS custom properties for common interface colors.",
+      "Do keep numeric scores and counts aligned with tabular numerals.",
+      "Do retain visible focus indicators and respect reduced-motion preferences.",
+      "Do keep map geometry and connections mounted when moving the camera into a category."
+    ],
+    "donts": [
+      "Don't introduce additional accent hues into this established palette.",
+      "Don't replace the persistent map with an isolated category diagram.",
+      "Don't treat tiny SVG coordinate-space text as an interface text-size token.",
+      "Don't add decorative shadows or large rounded cards to the flat atlas material."
+    ]
+  }
+}
